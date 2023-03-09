@@ -1,5 +1,9 @@
-function sumar(a, b) {
-  return a + b;
-}
+function validar(titulo){
+  if  (titulo == ""){
+      alert("No es posible publicar un post sin título” titulo");
+      return "error";
+  }
+  return titulo;
+};
 
-export default sumar;
+export default validar;

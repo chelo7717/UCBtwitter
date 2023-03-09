@@ -1,4 +1,4 @@
-//import sumar from "./sumador";
+import validar from "./twitter";
 
 const titulo = document.querySelector("#titulo");
 const detalle = document.querySelector("#detalle");
@@ -11,5 +11,5 @@ form.addEventListener("submit", (event) => {
   const titulopost = titulo.value;
   const detallepost = detalle.value;
 
-  div.innerHTML = "<p>" + "Titulo: " + titulopost + "<br>" + "Detalle: " + detallepost +  "</p>";
+  div.innerHTML = "<p>" + "Titulo: " + validar(titulopost) + "<br>" + "Detalle: " + detallepost +  "</p>";
 });
