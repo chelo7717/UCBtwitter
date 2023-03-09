@@ -5,5 +5,18 @@ function validar(titulo){
   }
   return titulo;
 };
+function listapost(post)
+{
+  var lista=[];
+  lista.push(post);
+  return lista;
+}
+function mostrarlista(lista)
+{
+  for(let i=0;i<lista.length;i++){
+    return lista[i];
+  }
+  
+}
 
-export default validar;
+export default validar;listapost;mostrarlista
